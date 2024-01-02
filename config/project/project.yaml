@@ -1,0 +1,22 @@
+dateModified: 1703619934
+email:
+  fromEmail: r0906880@student.thomasmore.be
+  fromName: 'Drank Webshop'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3d9e1db9-d8e4-4a7c-9a47-ca0b0dac0261: Common # Common
+    387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: 'Drank Webshop' # Drank Webshop
+    a3ea80b4-e1b2-40ba-9389-ad406905a942: 'Drank Webshop' # Drank Webshop
+system:
+  edition: solo
+  live: true
+  name: 'Drank Webshop'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
