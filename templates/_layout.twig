@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{craft.app.language}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{siteName}}</title>
+    {% do craft.app.view.registerCssFile("@web/styles/normalize.css") %}
+    {% do craft.app.view.registerCssFile("@web/styles/style.css") %}
+</head>
+<body>
+    <header>
+       <a href="#" class="headerLogo"></a>
+    
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="#">Alcohol</a></li>
+          <li><a href="#">Dranken</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    {% block content %} 
+
+    
+
+    {% endblock %}
+
+    <footer>
+       <a href="#" class="footerLogo"></a>
+       <a href="#" class="footerSocial"></a>
+    </footer>
+
+</body>
+</html>
