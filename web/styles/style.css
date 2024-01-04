@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: red;
+  background-color: #E52529;
   box-sizing: border-box;
   padding: 8px 40px 8px 8px;
   display: flex;
@@ -51,19 +51,14 @@ li {
 a:active {
   text-decoration: underline;
 }
-
 /*end Header*/
 
-
-
 /*Start Footer*/
-
 footer{
   height: 145px;
   bottom: 0;
   left: 0;
   right: 0;
-  position: fixed;
   display: flex;
   flex-direction: row; 
   justify-content: space-between;
@@ -91,3 +86,120 @@ footer{
 
 }
 /*end Footer*/
+
+
+/*Start home Articles*/
+
+.homeArticles > * {
+  height: 600px;
+}
+
+.homeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 56px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 0px;
+}
+
+p {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #E52529;
+  padding: 16px 32px;
+  width: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 12px;
+}
+
+.red {
+  color: #E52529;
+}
+
+.homeImages {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeImage1 {
+  width: 270px;
+  background-image: url(../images/Frontpage/Drinking_orange.jpg);
+}
+
+.homeImage2 {
+  width: 270px;
+  background-image: url(../images/Frontpage/Bottle_Jack.jpg);
+}
+
+.homeArticle1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeArticle1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeArticle2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeArticle3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  width: 82%;
+  margin: 0px 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.homeImage3 {
+  background-image: url(../images/Frontpage/apperitief.png);
+  width: 100%;
+}
+
+.homeImage4 {
+  background-image: url(../images/Frontpage/assortiment.jpg);
+  width: 100%;
+}
+
+.homeImage5 {
+  background-image: url(../images/Frontpage/About_frontpage.jpg);
+  width: 100%;
+}
+
+
+/*end home Articles*/
