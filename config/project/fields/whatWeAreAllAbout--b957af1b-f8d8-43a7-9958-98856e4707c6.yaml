@@ -1,0 +1,23 @@
+columnSuffix: kbjjojsw
+contentColumnType: text
+fieldGroup: a16af4de-9170-42ba-9340-97ad4abfb3b2 # home
+handle: whatWeAreAllAbout
+instructions: 'Dit is het gedeelte what we are all about'
+name: 'what we are all about'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  purifierConfig: Default.json
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  tinymceConfig: Default.json
+translationKeyFormat: null
+translationMethod: none
+type: abmat\tinymce\Field

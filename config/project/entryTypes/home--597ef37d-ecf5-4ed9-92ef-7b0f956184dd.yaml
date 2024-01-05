@@ -1,0 +1,95 @@
+fieldLayouts:
+  959111c6-5810-40f7-af4c-a8393e241bff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 224b5a40-80ce-447d-8be5-4e349e553bcd # header1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e555d3a-b77b-4756-8178-b9e8a83dda5b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3428543b-7253-40e7-b639-e0f415bc4ca7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1d95b86-a3f8-45e9-b985-8605dde5b9d4 # ons assortiment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c5bc96b-3fcb-47e9-a0c1-d6c3916e0e76
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c58ac58-2bbb-49cf-8e49-c1f4f9364f6a # enkel alcohol
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a03d6f6-2595-4bbb-92b8-51417875f44b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b957af1b-f8d8-43a7-9958-98856e4707c6 # what we are all about
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df8bc38b-de99-413e-bbd0-186611536fdd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c6aee18b-8016-4b8c-967a-5bdcd0bd8acf
+        userCondition: null
+handle: home
+hasTitleField: false
+name: home
+section: b4927f39-21eb-487f-9819-47b121ed4ca8 # home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

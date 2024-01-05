@@ -1,0 +1,20 @@
+columnSuffix: rksiqext
+contentColumnType: integer(10)
+fieldGroup: 892e899e-bc4d-426a-abb8-850855a6fc7c # Drinks
+handle: alcoholPercentage
+instructions: 'it gives the percentage of alcohol in the drinks'
+name: 'Alcohol percentage'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

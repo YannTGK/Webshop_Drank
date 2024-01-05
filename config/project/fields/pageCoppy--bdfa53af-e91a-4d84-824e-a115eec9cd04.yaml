@@ -1,0 +1,23 @@
+columnSuffix: wixbjycs
+contentColumnType: text
+fieldGroup: 3d9e1db9-d8e4-4a7c-9a47-ca0b0dac0261 # Common
+handle: pageCoppy
+instructions: null
+name: 'Page coppy'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  purifierConfig: Default.json
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  tinymceConfig: Default.json
+translationKeyFormat: null
+translationMethod: none
+type: abmat\tinymce\Field

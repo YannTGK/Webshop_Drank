@@ -1,13 +1,43 @@
-dateModified: 1703619934
+dateModified: 1704480268
 email:
   fromEmail: r0906880@student.thomasmore.be
   fromName: 'Drank Webshop'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2fdf6f3c-8796-4125-a22a-392fe3486fef: introduction # introduction
     3d9e1db9-d8e4-4a7c-9a47-ca0b0dac0261: Common # Common
+    3d1094d4-9576-466e-8f54-d264d7286642: 'Info about' # Info about
+    4e90476a-1613-447e-9942-30d691eec5b1: drinks # drinks
+    6b5f5717-efc9-40c6-9d68-97b86792a46c: Default # Default
+    9c58ac58-2bbb-49cf-8e49-c1f4f9364f6a: 'enkel alcohol' # enkel alcohol
+    51b05e04-81a8-4074-bb1c-64f3090a35c6: 'Alcohol percentage' # Alcohol percentage
+    71b42945-5a4c-4853-b342-f744d52ec12d: 'alcohol drinks' # alcohol drinks
+    224b5a40-80ce-447d-8be5-4e349e553bcd: header1 # header1
     387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: 'Drank Webshop' # Drank Webshop
+    597ef37d-ecf5-4ed9-92ef-7b0f956184dd: home # home
+    892e899e-bc4d-426a-abb8-850855a6fc7c: Drinks # Drinks
     a3ea80b4-e1b2-40ba-9389-ad406905a942: 'Drank Webshop' # Drank Webshop
+    a5b7d0fb-075f-4551-ab53-c7a37d7ea905: 'Information Drinks' # Information Drinks
+    a16af4de-9170-42ba-9340-97ad4abfb3b2: home # home
+    b957af1b-f8d8-43a7-9958-98856e4707c6: 'what we are all about' # what we are all about
+    b4927f39-21eb-487f-9819-47b121ed4ca8: home # home
+    bdfa53af-e91a-4d84-824e-a115eec9cd04: 'Page coppy' # Page coppy
+    c0d44cc8-1c83-47d4-9b83-9ba94e0224dc: 'About us' # About us
+    e1d95b86-a3f8-45e9-b985-8605dde5b9d4: 'ons assortiment' # ons assortiment
+    e5ae6272-fc40-4a83-ae00-6f7847500ae8: 'About us' # About us
+    e9c3a8c7-917d-4e97-9b9b-c9113fac435a: test # test
+    e671db06-f0c3-45b9-a032-192145ab9bc5: 'About us' # About us
+    f0f0a2ff-68fd-4217-93b1-7318025da83b: 'Price drinks' # Price drinks
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

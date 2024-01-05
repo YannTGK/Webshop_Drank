@@ -1,0 +1,23 @@
+columnSuffix: bnfajgjp
+contentColumnType: text
+fieldGroup: 892e899e-bc4d-426a-abb8-850855a6fc7c # Drinks
+handle: informationDrinks
+instructions: null
+name: 'Information Drinks'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  purifierConfig: Default.json
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  tinymceConfig: Default.json
+translationKeyFormat: null
+translationMethod: none
+type: abmat\tinymce\Field

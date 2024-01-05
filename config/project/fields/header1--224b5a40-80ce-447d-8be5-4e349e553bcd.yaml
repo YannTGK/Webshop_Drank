@@ -1,0 +1,23 @@
+columnSuffix: lwhrkzwq
+contentColumnType: text
+fieldGroup: a16af4de-9170-42ba-9340-97ad4abfb3b2 # home
+handle: header1
+instructions: null
+name: header1
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  purifierConfig: Default.json
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  tinymceConfig: Default.json
+translationKeyFormat: null
+translationMethod: none
+type: abmat\tinymce\Field

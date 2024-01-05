@@ -1,0 +1,47 @@
+fieldLayouts:
+  a24f6f96-2c95-4738-ba3d-73f41b845102:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: 'Drink Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ccc38710-b902-4d94-aa34-5234ded60940
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a8a8b882-b441-4e28-9c9d-953dda574efe
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 4e90476a-1613-447e-9942-30d691eec5b1 # drinks
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
