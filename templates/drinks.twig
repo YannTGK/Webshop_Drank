@@ -2,6 +2,8 @@
 
 {% block content %}
 
+
+
     <section class="DrinksSection">
         <div class="topScreen">
             <div class="drinksHead">
@@ -17,18 +19,23 @@
             <div class="drinkHeaderImage"></div>
         </div>
         
+        {% set entries = craft.entries().section('drinks').all() %}
+    
+        {% for entry in entries %}
         <article class="componentsDiv">
             <div class="components">
-                <h2><a href="#">Smirnoff</a></h2>
-                <div>
-                    <span> €20,95 </span><span> 7% </span>
+                <h2><a href="#">{{entry.title}}</a></h2>
+                <div class="details">
+                    <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
                 </div>
-                <p><a href="#">Geniet je graag van Smirnoff Vodka? Kies dan voor deze Smirnoff Vodka 1 liter fles.</a></p>
+                <p><a href="#">{{entry.introduction}}</a></p>
             </div>
 
 
             <div class="drankImage"></div>
-        </article>
+        </article>    
+        {% endfor %}  
+        
 
     </section>
 

@@ -31,6 +31,54 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: f0f0a2ff-68fd-4217-93b1-7318025da83b # Price drinks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b48bee4-9254-430c-83c4-0bf7ba5777a0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2fdf6f3c-8796-4125-a22a-392fe3486fef # introduction
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c0a3a10-b58d-41f3-ba49-0d5fdb0f412f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 51b05e04-81a8-4074-bb1c-64f3090a35c6 # Alcohol percentage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37fcb3b0-1f1d-4d90-92ea-c5f897723120
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a5b7d0fb-075f-4551-ab53-c7a37d7ea905 # Information Drinks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a900187f-5a13-4a96-9cdb-6ff9f87c5237
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: a8a8b882-b441-4e28-9c9d-953dda574efe
         userCondition: null

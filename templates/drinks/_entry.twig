@@ -1,0 +1,20 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+
+
+    <article class="componentsDiv">
+        <div class="components">
+            <h2><a href="#">{{entry.title}}</a></h2>
+            <div class="details">
+                    <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
+            </div>
+            <p><a href="#">{{entry.introduction}}</a></p>
+        </div>
+
+
+        <div class="drankImage"></div>
+    </article>    
+        
+
+{% endblock %}

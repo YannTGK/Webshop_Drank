@@ -310,6 +310,16 @@ p {
   width: 250px;
 }
 
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.details span {
+  font-size: 16px;
+}
+
 .drankImage {
   background-image: url(../images/dranken/smirnof_vodka.webp);
   width: 80px;
