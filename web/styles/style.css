@@ -48,6 +48,18 @@ li {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+h2 a {
+  color: #E52529;
+}
+
+p a {
+  color: black;
+}
+
 a:active {
   text-decoration: underline;
 }
@@ -209,6 +221,102 @@ p {
   background-image: url(../images/Frontpage/About_frontpage.jpg);
   width: 100%;
 }
-
-
 /*end home Articles*/
+
+/*Start drinks*/
+.filters {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  top: 90px;
+  left: 32px;
+  right: 32px;
+  border-radius: 12px;
+  margin-right: auto;
+  position: fixed;
+  z-index: 1000;
+}
+
+.button2 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #E52529;
+  padding: 16px 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 12px;
+}
+
+.DrinksSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.topScreen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.drinksHead {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.drinksTitle h1 {
+  margin-left: 32px;
+  text-align: left;
+}
+
+.drinkHeaderImage {
+  background-image: url(../images/Frontpage/assortiment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 50%;
+  height: 300px;
+}
+
+.componentsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 64px;
+  align-items: center;
+  padding: 8px 64px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.components h2 {
+  text-align: left;
+}
+
+.components p {
+  font-weight: bold;
+  width: 250px;
+}
+
+.drankImage {
+  background-image: url(../images/dranken/smirnof_vodka.webp);
+  width: 80px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*end drinks*/
