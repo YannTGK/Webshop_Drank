@@ -24,15 +24,14 @@
         {% for entry in entries %}
         <article class="componentsDiv">
             <div class="components">
-                <h2><a href="#">{{entry.title}}</a></h2>
+                <h2><a href="drinks/{{entry.slug}}">{{entry.title}}</a></h2>
                 <div class="details">
                     <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
                 </div>
-                <p><a href="#">{{entry.introduction}}</a></p>
+                <p><a href="drinks/{{entry.slug}}">{{entry.introduction}}</a></p>
             </div>
 
-
-            <div class="drankImage"></div>
+            <img src="{{entry.drinkimagesmall.one().url()}}" alt="" width="80" height="200">
         </article>    
         {% endfor %}  
         
