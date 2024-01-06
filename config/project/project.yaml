@@ -1,8 +1,30 @@
-dateModified: 1704492650
+dateModified: 1704501175
 email:
   fromEmail: r0906880@student.thomasmore.be
   fromName: 'Drank Webshop'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  aboutUs:
+    hasUrls: true
+    name: 'about Us'
+    settings:
+      path: '@webroot/images/About'
+    type: craft\fs\Local
+    url: '@web/images/About'
+  drinks:
+    hasUrls: true
+    name: drinks
+    settings:
+      path: '@webroot/images/dranken'
+    type: craft\fs\Local
+    url: '@web/images/dranken'
+  home:
+    hasUrls: true
+    name: home
+    settings:
+      path: '@webroot/images/Frontpage'
+    type: craft\fs\Local
+    url: '@web/images/Frontpage'
 meta:
   __names__:
     2fdf6f3c-8796-4125-a22a-392fe3486fef: introduction # introduction
@@ -10,6 +32,7 @@ meta:
     3d1094d4-9576-466e-8f54-d264d7286642: 'Info about' # Info about
     4e90476a-1613-447e-9942-30d691eec5b1: drinks # drinks
     6b5f5717-efc9-40c6-9d68-97b86792a46c: Default # Default
+    06fe3a33-66ad-4be8-9254-a3271ae424ed: 'about Us' # about Us
     9c58ac58-2bbb-49cf-8e49-c1f4f9364f6a: 'enkel alcohol' # enkel alcohol
     51b05e04-81a8-4074-bb1c-64f3090a35c6: 'Alcohol percentage' # Alcohol percentage
     71b42945-5a4c-4853-b342-f744d52ec12d: 'alcohol drinks' # alcohol drinks
@@ -17,6 +40,9 @@ meta:
     387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: 'Drank Webshop' # Drank Webshop
     597ef37d-ecf5-4ed9-92ef-7b0f956184dd: home # home
     892e899e-bc4d-426a-abb8-850855a6fc7c: Drinks # Drinks
+    4228d972-2762-4d4c-b1a6-d69ac37ceefa: drinksVersion # drinksVersion
+    a0cd8b19-e1b7-4968-86c8-25f1345172a0: drinks # drinks
+    a092b4e1-f8a1-411a-8964-8779a4da42f7: home # home
     a3ea80b4-e1b2-40ba-9389-ad406905a942: 'Drank Webshop' # Drank Webshop
     a5b7d0fb-075f-4551-ab53-c7a37d7ea905: 'Information Drinks' # Information Drinks
     a16af4de-9170-42ba-9340-97ad4abfb3b2: home # home
@@ -24,6 +50,7 @@ meta:
     b4927f39-21eb-487f-9819-47b121ed4ca8: home # home
     bdfa53af-e91a-4d84-824e-a115eec9cd04: 'Page coppy' # Page coppy
     c0d44cc8-1c83-47d4-9b83-9ba94e0224dc: 'About us' # About us
+    cbc6efb9-07dd-46a7-8965-d8c5bf50cd40: drinkImageSmall # drinkImageSmall
     e1d95b86-a3f8-45e9-b985-8605dde5b9d4: 'ons assortiment' # ons assortiment
     e5ae6272-fc40-4a83-ae00-6f7847500ae8: 'About us' # About us
     e9c3a8c7-917d-4e97-9b9b-c9113fac435a: test # test

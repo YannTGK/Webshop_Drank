@@ -1,14 +1,34 @@
 {% extends "_layout.twig" %}
 
 {% block content %}
+    <section class="homeArticles">
+
+        <div class="homeHeader">
+            <div class="homeImages homeImage1"></div>
+            <h1> {{aboutUs.header1}}</h1>
+            <div class="homeImages homeImage2"></div>
+        </div>
+
+        <article class="homeArticle1">
+            <div class="groups group1">
+                {{aboutUs.onsAssortiment}}
+            </div>
+            <div class="homeImage3 homeImages"></div>
+        </article>
+        <article class="homeArticle2">
+            <div class="groups group1">
+                {{aboutUs.enkelAlcohol}}
+            </div>
+            <div class="homeImage4 homeImages"></div>
+        </article>
         <article class="homeArticle3">
             <div class="groups group1">
-                <h2> What we are all <br> <div class="red">About</div></h2>
-                <p>Eerst en vooral wij zijn de nummer 1 website in drankverkoop. Maar we zijn meer dan dat. Ondek dit allemaal.</p>
-                <a href="#" class="button">Get to know us</a>
+                {{aboutUs.whatWeAreAllAbout}}
             </div>
             <div class="homeImage5 homeImages"></div>
 
         </article>
+        
+    </section>
 
 {% endblock %}

@@ -14,7 +14,7 @@ fieldLayouts:
             id: null
             inputType: null
             instructions: null
-            label: null
+            label: Header1
             max: null
             min: null
             name: null
@@ -28,6 +28,54 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: cc4d3ae6-bce3-4a7b-880d-dd2f3f55df71
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 224b5a40-80ce-447d-8be5-4e349e553bcd # header1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1d74dfa1-a211-431a-9842-b146e7b8c026
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1d95b86-a3f8-45e9-b985-8605dde5b9d4 # ons assortiment
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 84c99f48-1656-4121-a6d9-31d4d9523f7d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9c58ac58-2bbb-49cf-8e49-c1f4f9364f6a # enkel alcohol
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c159eb55-2337-4a60-b0b3-3f129ef5643e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b957af1b-f8d8-43a7-9958-98856e4707c6 # what we are all about
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a30c3e98-99f7-401f-8072-93d98d975d4c
             userCondition: null
             warning: null
             width: 100

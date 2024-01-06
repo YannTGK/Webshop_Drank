@@ -7,6 +7,9 @@ siteSettings:
   387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: # Drank Webshop
     enabledByDefault: true
     hasUrls: true
-    template: drinks/_entry.twig
+    template: drinks.twig
     uriFormat: 'drinks/{slug}'
-type: channel
+structure:
+  maxLevels: null
+  uid: 72e66023-d26d-4d2d-8b4d-3b4d3c95eae5
+type: structure

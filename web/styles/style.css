@@ -102,8 +102,18 @@ footer{
 
 /*Start home Articles*/
 
+.homeArticles {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
 .homeArticles > * {
   height: 600px;
+}
+
+.homeArticle3 {
+  margin-top: 32px;
 }
 
 .homeHeader {
