@@ -15,7 +15,6 @@ return [
                     return [
                         'id' => $entry->id,
                        'title' => $entry->title,
-                       'storeCat' => $entry->storeCategories,
                        'drinkImage' => $entry -> drinkimagesmall,
                        'price'=>$entry ->priceDrinks,
                        'introduction' => $entry -> introduction,
@@ -36,8 +35,7 @@ return [
                     return [
                         'id' => $entry->id,
                        'title' => $entry->title,
-                       'storeCat' => $entry->storeCategories,
-                       'drinkImage' => $entry -> drinkimagesmall,
+                       'drinkImage' => $entry -> drinkImagesmall,
                        'price'=>$entry ->priceDrinks,
                        'introduction' => $entry -> introduction,
                        'alcohol'=> $entry -> alcoholPercentage,

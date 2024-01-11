@@ -282,6 +282,10 @@ p {
   border-radius: 12px;
 }
 
+.button2 input[type="checkbox"] {
+  display: none;
+}
+
 .DrinksSection {
   display: flex;
   flex-direction: column;
@@ -317,6 +321,11 @@ p {
   height: 300px;
 }
 
+.good {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .componentsDiv {
   display: flex;
   flex-direction: row;
@@ -326,12 +335,14 @@ p {
   padding: 8px 64px;
   background-color: white;
   border-radius: 12px;
+  
 }
 
 .components {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  
 }
 
 .components h2 {
