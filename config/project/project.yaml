@@ -1,4 +1,4 @@
-dateModified: 1704558059
+dateModified: 1704929508
 email:
   fromEmail: r0906880@student.thomasmore.be
   fromName: 'Drank Webshop'
@@ -33,10 +33,14 @@ meta:
     4e90476a-1613-447e-9942-30d691eec5b1: drinks # drinks
     6b5f5717-efc9-40c6-9d68-97b86792a46c: Default # Default
     06fe3a33-66ad-4be8-9254-a3271ae424ed: 'about Us' # about Us
+    8edf0eb0-db84-407e-8941-f20dada533ee: 'store categories' # store categories
     9c58ac58-2bbb-49cf-8e49-c1f4f9364f6a: 'enkel alcohol' # enkel alcohol
+    9c722366-6570-4938-b9ff-9f3d55620afe: 'store Categories' # store Categories
+    18e745c4-9c85-4f4c-9219-09e2ba15599c: 'Store Categories' # Store Categories
     51b05e04-81a8-4074-bb1c-64f3090a35c6: 'Alcohol percentage' # Alcohol percentage
     71b42945-5a4c-4853-b342-f744d52ec12d: 'alcohol drinks' # alcohol drinks
     224b5a40-80ce-447d-8be5-4e349e553bcd: header1 # header1
+    312c1641-3732-473d-82d8-212a18bc8443: Default # Default
     387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: 'Drank Webshop' # Drank Webshop
     597ef37d-ecf5-4ed9-92ef-7b0f956184dd: home # home
     892e899e-bc4d-426a-abb8-850855a6fc7c: Drinks # Drinks
@@ -61,6 +65,56 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      allow: 'Allow cookies'
+      async_js: '1'
+      auto_inject: ''
+      decline: Decline
+      defer_js: '1'
+      disable_in_live_preview: ''
+      dismiss: 'Got it!'
+      dismiss_on_scroll: '1000'
+      dismiss_on_timeout: '300'
+      excluded_categories: null
+      excluded_entry_types: null
+      expiry_days: '1'
+      honour_do_not_track_header: ''
+      layout: block
+      learn: 'Learn More'
+      learn_more_link: 'http://cookiesandyou.com/'
+      message: 'This website uses cookies to ensure you get the best experience on our website.'
+      palette: default
+      palette_banner: '000'
+      palette_banner_text: ffffff
+      palette_button: f1d600
+      palette_button_text: '000000'
+      palette_left_button_bg: f1d600
+      palette_left_button_text: '000000'
+      palette_link: ffffff
+      position: bottom-left
+      preload_css: ''
+      revokable: ''
+      secure_only: '1'
+      target: _blank
+      type: info
+  cookies:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  geoaddress:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      googleApiKey: AIzaSyDFY0QkI8ohMzEUWK373CvpOI9SRSmGFeo
   redactor:
     edition: standard
     enabled: true

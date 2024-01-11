@@ -33,6 +33,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 9c722366-6570-4938-b9ff-9f3d55620afe # store Categories
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b909901-3cf6-4619-af60-5c9467c66f4d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: cbc6efb9-07dd-46a7-8965-d8c5bf50cd40 # drinkImageSmall
             instructions: null
             label: null

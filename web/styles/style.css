@@ -1,7 +1,7 @@
 /*Start header*/
 body {
   padding: 0px;
-  margin: 0px;
+  margin-top: 70px;
   background-color: #ECC1BD;
 }
 
@@ -231,9 +231,32 @@ p {
   background-image: url(../images/Frontpage/About_frontpage.jpg);
   width: 100%;
 }
+
+.homeImage6 {
+  background-image: url(../images/About/ons_verhaal.jpg);
+  width: 100%;
+}
+
+.homeImage7 {
+  background-image: url(../images/About/passion_led_us_here.jpg);
+  width: 100%;
+}
+
+.homeImage8 {
+  background-image: url(../images/About/ons_vereniging.jpg);
+  width: 100%;
+}
+
+.homeImage9 {
+  background-image: url(../images/About/About_frontpage.jpg);
+  width: 100%;
+}
 /*end home Articles*/
 
 /*Start drinks*/
+.categories {
+  margin-top: 300px;
+}
 .filters {
   box-sizing: border-box;
   display: flex;
@@ -341,7 +364,13 @@ p {
 
 /*end drinks*/
 /*Start entry*/
+.gapTop {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
-
+#widthNow p{
+  width: 400px;
+}
 
 /*end entry*/

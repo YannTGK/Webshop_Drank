@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "963c1e1f5a397f200cc32a15c2e4ccb0",
+    "content-hash": "5d57030e7d03b60495781bc1dda5d93b",
     "packages": [
         {
             "name": "abmat/craft-tinymce",
@@ -45,6 +45,55 @@
                 "source": "https://github.com/abm-werbeagentur/craft-tinymce"
             },
             "time": "2023-09-27T11:15:26+00:00"
+        },
+        {
+            "name": "adigital/cookie-consent-banner",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a-digital/cookie-consent-banner/zipball/8e3b5539dac17e720142f821ec3a7692575a0188",
+                "reference": "8e3b5539dac17e720142f821ec3a7692575a0188",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Cookie Consent Banner",
+                "handle": "cookie-consent-banner",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://github.com/a-digital/cookie-consent-banner/blob/master/CHANGELOG.md",
+                "class": "adigital\\cookieconsentbanner\\CookieConsentBanner"
+            },
+            "autoload": {
+                "psr-4": {
+                    "adigital\\cookieconsentbanner\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark @ A Digital",
+                    "homepage": "https://adigital.agency"
+                }
+            ],
+            "description": "Add a configurable cookie consent banner to the website.",
+            "keywords": [
+                "cms",
+                "cookie consent banner",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/a-digital/cookie-consent-banner/blob/master/README.md",
+                "issues": "https://github.com/a-digital/cookie-consent-banner/issues"
+            },
+            "time": "2022-08-11T15:32:28+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -624,6 +673,56 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
             "time": "2024-01-02T17:52:44+00:00"
+        },
+        {
+            "name": "craftcms/element-api",
+            "version": "3.0.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/element-api/zipball/1e885be5b1b08e7ab8eed04d34fd2523c688e99e",
+                "reference": "1e885be5b1b08e7ab8eed04d34fd2523c688e99e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-RC3",
+                "league/fractal": "^0.18.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Element API",
+                "handle": "element-api",
+                "documentationUrl": "https://github.com/craftcms/element-api/blob/v2/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\elementapi\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Create a JSON API for your elements in Craft",
+            "keywords": [
+                "api",
+                "cms",
+                "craftcms",
+                "json",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/element-api/issues?state=open",
+                "source": "https://github.com/craftcms/element-api",
+                "docs": "https://github.com/craftcms/element-api/blob/v2/README.md",
+                "rss": "https://github.com/craftcms/element-api/commits/v2.atom"
+            },
+            "time": "2022-07-07T19:50:10+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1658,6 +1757,55 @@
             "time": "2023-09-26T02:20:38+00:00"
         },
         {
+            "name": "league/fractal",
+            "version": "0.18.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/fractal/zipball/4e553dae1a9402adbe11c81430a64675dc97b4fc",
+                "reference": "4e553dae1a9402adbe11c81430a64675dc97b4fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "illuminate/pagination": "The Illuminate Pagination component.",
+                "pagerfanta/pagerfanta": "Pagerfanta Paginator",
+                "zendframework/zend-paginator": "Zend Framework Paginator"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Fractal\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Phil Sturgeon",
+                    "email": "me@philsturgeon.uk",
+                    "homepage": "http://philsturgeon.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle the output of complex data structures ready for API output.",
+            "homepage": "http://fractal.thephpleague.com/",
+            "keywords": [
+                "api",
+                "json",
+                "league",
+                "rest"
+            ],
+            "time": "2019-05-10T02:16:43+00:00"
+        },
+        {
             "name": "mikehaertl/php-shellcommand",
             "version": "1.7.0",
             "dist": {
@@ -1811,6 +1959,53 @@
                 "psr-3"
             ],
             "time": "2023-10-27T15:25:26+00:00"
+        },
+        {
+            "name": "nystudio107/craft-cookies",
+            "version": "4.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-cookies/zipball/00146c6f22296c4431c2282ec2925f4fdd9638e1",
+                "reference": "00146c6f22296c4431c2282ec2925f4fdd9638e1",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "class": "nystudio107\\cookies\\Cookies",
+                "handle": "cookies",
+                "name": "Cookies"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\cookies\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com/"
+                }
+            ],
+            "description": "A simple plugin for setting and getting cookies from within Craft CMS templates.",
+            "keywords": [
+                "cms",
+                "cookies",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://nystudio107.com/docs/cookies/",
+                "issues": "https://nystudio107.com/plugins/cookies/support",
+                "source": "https://github.com/nystudio107/craft-cookies"
+            },
+            "time": "2022-05-10T17:13:41+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4042,6 +4237,54 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "time": "2023-11-03T14:41:28+00:00"
+        },
+        {
+            "name": "tde/craftplugin-geoaddress",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdeNL/craftplugin-geoaddress/zipball/6d045de90a46821bff03d996deb399df8dcc7456",
+                "reference": "6d045de90a46821bff03d996deb399df8dcc7456",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "ext-curl": "*",
+                "php": "^8.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "TDE - Geo Address Fields",
+                "handle": "geoaddress",
+                "schemaVersion": "1.0.1",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/tdeNL/craft-geoaddress/master/CHANGELOG.md",
+                "components": {
+                    "geoAddressService": "tde\\craft\\geoaddress\\services\\GeoAddressService"
+                },
+                "class": "tde\\craft\\geoaddress\\GeoAddress"
+            },
+            "autoload": {
+                "psr-4": {
+                    "tde\\craft\\geoaddress\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TDE",
+                    "homepage": "https://www.tde.nl"
+                }
+            ],
+            "description": "Geo Address fields for Craft Sections",
+            "support": {
+                "docs": "https://github.com/tdeNL/craft-geoaddress/blob/master/README.md",
+                "issues": "https://github.com/tdeNL/craft-geoaddress/issues"
+            },
+            "time": "2022-08-17T09:43:53+00:00"
         },
         {
             "name": "theiconic/name-parser",

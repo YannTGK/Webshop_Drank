@@ -1,8 +1,12 @@
 {
   "require": {
     "abmat/craft-tinymce": "1.0.5",
+    "adigital/cookie-consent-banner": "2.0.0",
     "craftcms/cms": "4.5.14",
+    "craftcms/element-api": "3.0.1.1",
     "craftcms/redactor": "3.0.4",
+    "nystudio107/craft-cookies": "4.0.0",
+    "tde/craftplugin-geoaddress": "2.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

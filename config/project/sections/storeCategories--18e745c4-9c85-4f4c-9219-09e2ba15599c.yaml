@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storeCategories
+name: 'Store Categories'
+propagationMethod: all
+siteSettings:
+  387b84cf-e0f9-41a7-976d-9a2d94c8ee4d: # Drank Webshop
+    enabledByDefault: true
+    hasUrls: true
+    template: store-categories/_entry
+    uriFormat: 'store-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: af4055c1-347e-4246-b763-a3d5a7188dee
+type: structure

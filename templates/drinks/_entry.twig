@@ -1,20 +1,18 @@
 {% extends "_layout.twig" %}
 
 {% block content %}
-
-
-    <article class="componentsDiv">
-        <div class="components">
+   
+    <article class="componentsDiv gapTop">
+        <div class="components " id="widthNow">
             <h2><a href="#">{{entry.title}}</a></h2>
             <div class="details">
                     <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
             </div>
-            <p><a href="#">{{entry.introduction}}</a></p>
+            <p><a href="#">{{entry.informationDrinks}}</a></p>
         </div>
 
             <img src="{{entry.drinkimagesmall.one().url()}}" alt="" width="80" height="200">
 
     </article>    
         
-
 {% endblock %}

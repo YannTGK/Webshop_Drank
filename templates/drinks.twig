@@ -2,40 +2,79 @@
 
 {% block content %}
 
+<div>
+    {% set categories = craft.entries().section('storeCategories').all() %}
+    <div class="filters">
+        {% for cat in categories %}
+            <label class="button2">
+                <input type="checkbox" name="{{ cat.slug }}" onchange="onSelectCategory.call(this)" />
+                {{ cat.title }}
+            </label>
+        {% endfor %}
+    </div>
+</div>
 
-
-    <section class="DrinksSection">
-        <div class="topScreen">
-            <div class="drinksHead">
-                <div class="filters">
-                    <a href="#" class="button2">Alcohol</a>
-                    <a href="#" class="button2">Geen alcohol</a>
-                    <a href="#" class="button2">Alles</a>
-                </div>
-                <div class="drinksTitle">
-                    <h1> All <br> <div class="red"> Drinks </div></h1>
-                </div>
-            </div>  
-            <div class="drinkHeaderImage"></div>
-        </div>
-        
-        {% set entries = craft.entries().section('drinks').all() %}
-    
-        {% for entry in entries %}
-        <article class="componentsDiv">
-            <div class="components">
-                <h2><a href="drinks/{{entry.slug}}">{{entry.title}}</a></h2>
-                <div class="details">
-                    <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
-                </div>
-                <p><a href="drinks/{{entry.slug}}">{{entry.introduction}}</a></p>
+<section class="DrinksSection">
+    <div class="topScreen">
+        <div class="drinksHead">
+            <div class="drinksTitle">
+                <h1> All <br> <div class="red"> Drinks </div></h1>
             </div>
+        </div>  
+        <div class="drinkHeaderImage"></div>
+    </div>
 
-            <img src="{{entry.drinkimagesmall.one().url()}}" alt="" width="80" height="200">
-        </article>    
+    <div class="good">
+        {% set entries = craft.entries().section('drinks').all() %}
+
+        {% for entry in entries %}
+            <article class="componentsDiv" data-categories="{{ entry.storeCategories|map(cat => cat.slug)|join(',') }}">
+                <div class="components">
+                    <h2><a href="drinks/{{entry.slug}}">{{entry.title}}</a></h2>
+                    <div class="details">
+                        <span>€ {{entry.priceDrinks}} </span><span> {{entry.alcoholPercentage}}% alcohol </span>
+                    </div>
+                    <p><a href="drinks/{{entry.slug}}">{{entry.introduction}}</a></p>
+                </div>
+                <img src="{{entry.drinkimagesmall.one().url()}}" alt="" width="60" height="150">
+            </article>    
         {% endfor %}  
-        
+    </div>
+</section>
 
-    </section>
+<script>
+    let selectedCategories = [];
+
+    function onSelectCategory() {
+        if (selectedCategories.includes(this.name)) {
+            let index = selectedCategories.indexOf(this.name);
+            selectedCategories.splice(index, 1);
+        } else {
+            selectedCategories.push(this.name);
+        }
+        this.parentElement.style.backgroundColor = this.checked ? '#ff7f00' : '';
+        updateGrid();
+    }
+
+    function updateGrid() {
+        document.querySelectorAll(".good .componentsDiv").forEach((el) => {
+            let dataCategories = el.getAttribute("data-categories").split(',');
+            let showElement = true;
+
+            for (let i = 0; i < selectedCategories.length; i++) {
+                if (!dataCategories.includes(selectedCategories[i])) {
+                    showElement = false;
+                    break;
+                }
+            }
+
+            if (showElement || selectedCategories.length === 0) {
+                el.style.display = "block";
+            } else {
+                el.style.display = "none";
+            }
+        });
+    }
+</script>
 
 {% endblock %}
